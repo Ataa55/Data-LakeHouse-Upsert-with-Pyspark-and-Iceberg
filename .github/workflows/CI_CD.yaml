@@ -22,7 +22,7 @@ jobs:
     env:
       DATABRICKS_HOST: ${{ secrets.DEPLOYMENT_TARGET_URL }}
       DATABRICKS_TOKEN:  ${{ secrets.DEPLOYMENT_TARGET_TOKEN }}
-      REPO_PATH: /Workspace/Users/ataamohamed554@gmail.com/prod_spark_iceberg
+      REPO_PATH: /Workspace/Users/ataamohamed554@gmail.com/prod
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
